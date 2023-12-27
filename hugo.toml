@@ -1,3 +1,20 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Yuvaraj Kesavan Blog'
+theme = "anubis"
+paginate = 3
+
+[author]
+name = "Yuvaraj Kesavan"
+
+[params]
+author = "Yuvaraj Kesavan"
+description = "Personal Blog Post"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+mathjax = false
